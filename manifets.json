@@ -1,0 +1,21 @@
+{
+    "name": "Arkea Todo List",
+    "description": "Yapılacaklar listesi",
+    "short_name": "ATL",
+    "icons": [
+       {
+          "src": "https://resimlink.com/Y5ifZC",
+          "sizes": "192x192",
+          "type": "image/png"
+       },
+       {
+          "src": "https://resimlink.com/Y5ifZC",
+          "sizes": "512x512",
+          "type": "image/png"
+       }
+    ],
+    "start_url": "https://arkea-todo-list.herokuapp.com/",
+    "display": "standalone",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF"
+ }
