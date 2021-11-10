@@ -12,16 +12,22 @@
     <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
     
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>
-
-    var api= "f6de616ce0dfad852e0d8919e836f1073901d60c";
-
-    var ct= "3";
-
+    window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+            appId: "0f795079-8868-4dc8-86c3-7ee1237e9b96",
+        });
+    });
     </script>
-
+    
+    <!--Sayfa Kısaltıcı Başlangıç-->
+    <script>
+    var api= "f6de616ce0dfad852e0d8919e836f1073901d60c";
+    var ct= "3";
+    </script>
     <script src="//aylink.co/t89s3.js"></script>
-
     <!--Sayfa Kısaltıcı son-->
 
 </head>
